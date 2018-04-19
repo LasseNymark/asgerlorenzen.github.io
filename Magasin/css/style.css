@@ -189,14 +189,14 @@ margin-left: 25%;
 /* MENU */
 
 label {
-    font-size: 55px;
+    font-size: 45px;
     display: block;
     width: 20px;
     color: white;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    padding-right: 40px
+    top: 5px;
+    right: -0px;
+    padding-right: 25px
 }
 
 label {
