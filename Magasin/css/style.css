@@ -1,0 +1,315 @@
+html {
+
+
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+/* GLOBAL */
+
+header {
+    background: black;
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: white;
+    margin-left: 5%;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    padding-top: 25%;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.debedstefoto {
+    padding-top: 1%;
+}
+
+h3 {
+    margin-top: -20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 120%;
+    text-align: center;
+    font-family: sans-serif;
+}
+h5 {
+    font-size: 120%;
+font-family: sans-serif;
+}
+
+.drawpad {
+    width: 100%;
+
+
+}
+
+.infotekst {
+    margin: 5px;
+    font-family: sans-serif;
+
+}
+
+.mobilfoto {
+    width: 100%;
+    position: relative;
+    left: 5px;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.tegneplader {
+    width: 100%;
+
+}
+
+.tegnepladetekst {
+    margin: 5%;
+    line-height: 150%
+}
+
+.tegneplade {
+    width: 45%;
+    margin: 10%
+}
+
+li {
+    margin: 2%;
+    position: relative;
+    top: -11px
+}
+
+.faktaliste {
+    border-style: solid;
+    list-style: none;
+    margin: 5%;
+}
+
+.wacom1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.liste1 {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.wacom2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wacom3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.video {
+    width: 100%;
+
+}
+
+.stjerner {
+    width: 30%;
+}
+
+.container {
+
+    flex-direction: row;
+}
+
+.container1 {
+
+    flex-direction: row;
+}
+
+.arkiv {
+    width: 100%;
+}
+
+.appheader {
+    margin: 5%
+}
+
+.apps {
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+margin-left: 25%;
+    margin-top: 20%;
+}
+
+.canon1300{
+    width: 100%;
+}
+
+.container2 {
+
+    flex-direction: row;
+}
+.kamera {
+    width: 100%;
+    
+    
+}
+
+
+/* MENU */
+
+label {
+    font-size: 55px;
+    display: block;
+    width: 20px;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-right: 40px
+}
+
+label {
+    cursor: default;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: inline-block;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    text-decoration-line: none;
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-style: ridge;
+    background-color: black;
+    padding: 10px;
+
+}
+
+
+
+
+/* TABLET */
+
+@media(min-width: 768px) {}
+
+
+
+/* DESKTOP */
+
+@media(min-width: 1025px) {
+
+    label {
+        display: none;
+
+    }
+    #toggle {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        background-color: black;
+
+
+    }
+
+    .menu a {
+        display: inline;
+        border-style: none;
+        font-size: 25px;
+        margin: 10%;
+        text-align: center;
+
+        padding-top: 0px;
+
+    }
+
+
+    .headerbillede img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 110px;
+    }
+    .tegneplade {
+        width: 25%;
+        margin: 10%
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+    }
+ .container2 {
+        display: flex;
+        justify-content: space-between;
+     margin: 1%
+    }
+    .canon1300{
+    width: 100%;
+        max-height: 340px;
+}
+    .mobilfoto  {
+        max-width: 70%;
+         display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .drawpad  {
+        max-width: 70%;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .infotekst {
+        text-align: center;
+}
+}
