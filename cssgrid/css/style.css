@@ -6,6 +6,30 @@ body {
 }
 
 /*MENU*/
+label {
+        display: block;
+        cursor: pointer;
+        color: #6b6b6b;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        color: #6b6b6b;
+     
+    }
+    .menu a:hover {
+        background-color: #7aaddb;
+        
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
 
 /*MENU*/
 
@@ -251,10 +275,42 @@ body {
         margin: 0%;
     }
 
+/*MENU*/
+    nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+    display: flex;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.menu a:hover {
+        background-color: #7aaddb;
+    padding: 4px;
+color: white;
+    }
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
 
-
-
-
+    /*MENU*/
 
     #logo {
         width: 40%;
@@ -268,7 +324,7 @@ body {
         font-family: 'Roboto', sans-serif;
         font-size: 60%;
         color: white;
-        text-decoration: none; 
+    
     }
 
     .grid-container1 {
