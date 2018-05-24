@@ -4,9 +4,13 @@ body {
 }
 body li, p {
     font-family: 'Open-Sans', sans-serif; 
+    color: #6b6b6b;
+    text-align:justify;
+    line-height: 1.3;
 }
 body h1,h2,h3,h4,h5 {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    color: #7aaddb;
 }
 /*-----------------------------------MENU-START------------------------------*/
 
@@ -430,6 +434,16 @@ footer {
         font-size: 60%;
         color: white;
     }
+      .grid-container1 {
+        display: grid;
+         grid-template-areas: 'header' 'header2' ' header3';
+        grid-template-rows: 30px 60px 60px;
+    }
+    .grid-container1 > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
  /*---------------------------------HEADER-SLUT--------------------------*/
 
 /*------------------------------TOP-BILLEDE-START------------------------*/
@@ -467,16 +481,6 @@ footer {
 /*------------------------------TOP-BILLEDE-SLUT------------------------*/    
     
 /*---------------------------------CSS-GRID-START--------------------------*/
-    .grid-container1 {
-        display: grid;
-        grid-template-areas: 'header header header header header header' 'header2 header2 header2 header2 header2 header2' 'header3 header3 header3 header3 header3 header3';
-        grid-template-rows: 30px 60px 60px;
-    }
-    .grid-container1 > div {
-        text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
-    }
     .item2 {
         grid-area: tandlægeskræk;
     }
@@ -546,7 +550,7 @@ a {
 /*---------------------------------PC-SLUT--------------------------*/
 /*---------------------------------PC-SLUT--------------------------*/
 
-
+/*---------------------------------PRISER-START--------------------------*/
 strong {
     
     background-color: white;
@@ -580,4 +584,93 @@ li {
     margin-left: 4.5%;
     color: #7aaddb;
 }
+    /*---------------------------------PRISER-SLUT--------------------------*/
+    
+    
+    .omosgrid {
+     display: grid;
+        grid-template-areas:
+            'billede9 billede9 aabningstider'
+            'mai mammad mission'
+            'hanna camilla lotte';
+        grid-template-columns: 1fr 1fr 1fr;
+           margin-left: 13%;
+        margin-right: 13%;
+        margin-top: 11%;
+        grid-gap: 1%;
+    }
+    .aabningstider  {
+        grid-area: aabningstider;
+        text-align: left;
+        background-color: white;
+        margin-bottom: 3%;
+    }
+
+    
+    .aabningstider h2 {
+        text-align: center;
+        color: #7aaddb;
+        
+    }
+    #dage {
+        color: #7aaddb;
+        font-size: 120%;
+    
+    }
+    #tidspunkt {
+            color: #6b6b6b;
+        font-size: 120%;
+
+    }
+
+    .billede9 {
+      grid-area: billede9;
+    }
+   
+    .profil {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 40%;
+        margin-top: 2%;
+    }
+    .mai {
+        grid-area: mai;
+        background-color: white;
+        margin-bottom: 3%;
+      padding: 2%;
+    }
+    .mammad {
+        grid-area: mammad;
+        background-color: white;
+        margin-bottom: 3%;
+         padding: 2%;
+    }
+    .lotte {
+        grid-area: lotte;
+        background-color: white;
+       padding: 2%;
+    }
+    .camilla {
+        grid-area: camilla;
+        background-color: white;
+        padding: 2%;
+    }
+    .hanna {
+        grid-area: hanna;
+        background-color: white;
+        padding: 2%;
+    }
+     .mission {
+        grid-area: mission;
+         color: #6b6b6b;
+         background-color: white;
+         margin-bottom: 3%;
+          padding: 2%;
+    }
+
+    .omosgrid h4 {
+        text-align: center;
+    }
+
 }
