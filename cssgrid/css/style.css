@@ -119,15 +119,18 @@ label {
     margin-top: 63%;
     margin-left: 30%;
     z-index: 1;
-    transition: transform 0,5s;
+    transition: transform 0, 5s;
 }
 
 .bestiltid:hover {
     padding: 5px;
-    -webkit-transform: scale(1.2);
     transform: scale(1.2);
     margin-left: 29%;
-    
+    -ms-transform: transform(1.2);
+    -webkit-transform: transform(1.2));
+    -moz-transform: transform(1.2));
+    -o-transform: transform(1.2));
+
 }
 
 .nypatient {
@@ -136,14 +139,17 @@ label {
     margin-top: 78%;
     margin-left: 30%;
     z-index: 1;
-    transition: transform 0,5s;
+    transition: transform 0, 5s;
 }
 
 .nypatient:hover {
     padding: 5px;
     transform: scale(1.2);
     margin-left: 29%;
-    -webkit-transform: scale(1.2);
+    -ms-transform: transform(1.2));
+    -webkit-transform: transform(1.2));
+    -moz-transform: transform(1.2));
+    -o-transform: transform(1.2));
 }
 
 .ts,
@@ -306,7 +312,7 @@ footer {
         margin-top: -14%;
         margin-left: 40%
     }
-     .bestiltid:hover {
+    .bestiltid:hover {
         margin-left: 39%;
     }
     .nypatient {
@@ -315,7 +321,7 @@ footer {
         margin-top: -7%;
         margin-left: 40%;
     }
-    
+
     .nypatient:hover {
         margin-left: 39%;
         margin-top: -8%;
@@ -366,7 +372,7 @@ footer {
     .maps {
         width: 4%;
         margin-top: 2%;
-        float: right; 
+        float: right;
         margin-right: 10%;
     }
 
@@ -466,10 +472,10 @@ footer {
         margin-top: -14%;
         margin-left: 43%
     }
-     .bestiltid:hover {
+    .bestiltid:hover {
         margin-left: 42.5%;
     }
-    
+
     .nypatient {
         width: 14%;
         position: absolute;
