@@ -95,6 +95,7 @@ label {
     font-family: 'Roboto', sans-serif;
     font-size: 80%;
     color: white;
+    text-decoration: none;
 }
 
 /*--------------------------------HEADER-SLUT------------------------------*/
@@ -122,10 +123,10 @@ label {
     padding: 5px;
     transform: scale(1.2);
     margin-left: 29%;
-    -ms-transform: transform(1.2);
-    -webkit-transform: transform(1.2));
-    -moz-transform: transform(1.2));
-    -o-transform: transform(1.2));
+    -ms-transform: translateY(1.2);
+    -webkit-transform: translateY(1.2));
+    -moz-transform: translateY(1.2));
+    -o-transform: translateY(1.2));
 }
 
 .nypatient {
@@ -141,10 +142,10 @@ label {
     padding: 5px;
     transform: scale(1.2);
     margin-left: 29%;
-    -ms-transform: transform(1.2));
-    -webkit-transform: transform(1.2));
-    -moz-transform: transform(1.2));
-    -o-transform: transform(1.2));
+    -ms-transform: translateY(1.2));
+    -webkit-transform: translateY(1.2));
+    -moz-transform: translateY(1.2));
+    -o-transform: translateY(1.2));
 }
 
 .skov {
