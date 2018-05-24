@@ -74,7 +74,7 @@ label {
 
 .grid-container1 {
     display: grid;
-    grid-template-areas: 'header header header header header header' 'header2 header2 header2 header2 header2 header2' 'header3 header3 header3 header3 header3 header3';
+    grid-template-areas: 'header' 'header2' ' header3';
     grid-template-rows: 30px 60px 60px;
 
 
@@ -116,21 +116,30 @@ label {
     position: absolute;
     margin-top: 63%;
     margin-left: 30%;
-         z-index: 1;
+    z-index: 1;
+    transition: transform 0,5s;
 }
 
 .bestiltid:hover {
     padding: 5px;
+    transform: scale(1.2);
+    margin-left: 29%;
+    
 }
+
 .nypatient {
-        width: 40%;
+    width: 40%;
     position: absolute;
     margin-top: 78%;
     margin-left: 30%;
-     z-index: 1;
+    z-index: 1;
+    transition: transform 0,5s;
 }
+
 .nypatient:hover {
     padding: 5px;
+    transform: scale(1.2);
+    margin-left: 29%;
 }
 
 .ts,
@@ -201,7 +210,7 @@ footer {
 
 .maps {
     width: 6%;
-  float: right;
+    float: right;
     margin-right: 3%;
     margin-top: 3%;
 }
@@ -243,14 +252,15 @@ footer {
         margin: 2%;
         margin-top: 2px;
         font-family: 'Roboto', sans-serif;
-      
+
 
     }
     .menu a:hover {
         background-color: #7aaddb;
         padding: 7px;
         color: white;
-       
+        margin-top: -5px;
+
     }
 
     label {
@@ -285,19 +295,27 @@ footer {
         margin-right: auto;
         margin-bottom: 1%;
     }
-    
+
     .bestiltid {
-    width: 18%;
-    position: absolute;
-    margin-top: -14%;
-    margin-left: 40%
-}
-.nypatient {
         width: 18%;
-    position: absolute;
-    margin-top: -7%;
-    margin-left: 40%;
-}
+        position: absolute;
+        margin-top: -14%;
+        margin-left: 40%
+    }
+     .bestiltid:hover {
+        margin-left: 39%;
+    }
+    .nypatient {
+        width: 18%;
+        position: absolute;
+        margin-top: -7%;
+        margin-left: 40%;
+    }
+    
+    .nypatient:hover {
+        margin-left: 39%;
+        margin-top: -8%;
+    }
     .mobilskov {
         width: 100%;
         display: none;
@@ -338,8 +356,8 @@ footer {
     .fblogo {
         width: 4%;
         margin-top: 1%;
-        float: right; 
-        margin: 
+        float: right;
+        margin:
     }
 
     .maps {
@@ -385,7 +403,8 @@ footer {
         background-color: #7aaddb;
         padding: 7px;
         color: white;
-        
+        margin-top: -5px;
+
     }
 
     label {
@@ -435,19 +454,26 @@ footer {
         margin-right: auto;
         margin-top: 2%;
     }
-    
-     .bestiltid {
-    width: 14%;
-    position: absolute;
-    margin-top: -14%;
-    margin-left: 43%
-}
-.nypatient {
+
+    .bestiltid {
         width: 14%;
-    position: absolute;
-    margin-top: -7%;
-    margin-left: 43%;
-}
+        position: absolute;
+        margin-top: -14%;
+        margin-left: 43%
+    }
+     .bestiltid:hover {
+        margin-left: 42.5%;
+    }
+    
+    .nypatient {
+        width: 14%;
+        position: absolute;
+        margin-top: -7%;
+        margin-left: 43%;
+    }
+    .nypatient:hover {
+        margin-left: 42.5%;
+    }
     .mobilskov {
         width: 100%;
         display: none;
