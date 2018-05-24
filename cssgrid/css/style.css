@@ -1,11 +1,14 @@
-html,
-
 body {
     background-color: #dfdfdf;
     margin: 0%;
 }
-
-/*------------------MENU--------------------*/
+body li, p {
+    font-family: 'Open-Sans', sans-serif; 
+}
+body h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif; 
+}
+/*-----------------------------------MENU-START------------------------------*/
 
 label {
     display: block;
@@ -34,15 +37,11 @@ label {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-bottom: 9px;
-
-
-
 }
 
 .menu a:hover {
     background-color: #7aaddb;
     color: white;
-
 }
 
 #toggle:checked + .menu {
@@ -53,23 +52,21 @@ label {
     display: none;
 }
 
+/*-----------------------------------MENU-SLUT------------------------------*/
 
+/*--------------------------------HEADER-START------------------------------*/
 
-/*---------------------MENU-----------------*/
-
-/*MARTIN*/
-
-.item6 {
+.hblaa {
     grid-area: header;
     background-color: #7aaddb;
 }
 
-.item7 {
+.hhvid {
     grid-area: header2;
     background-color: #ffffff
 }
 
-.item8 {
+.hgraa {
     grid-area: header3;
     background-color: #f5f5f5
 }
@@ -78,8 +75,6 @@ label {
     display: grid;
     grid-template-areas: 'header' 'header2' ' header3';
     grid-template-rows: 30px 60px 60px;
-
-
 }
 
 .grid-container1 > div {
@@ -100,10 +95,11 @@ label {
     font-family: 'Roboto', sans-serif;
     font-size: 80%;
     color: white;
-
 }
 
-/*------Martin-----------*/
+/*--------------------------------HEADER-SLUT------------------------------*/
+
+/*--------------------------------TOP-BILLEDE-START-------------------------*/
 
 .mobilskov {
     width: 94%;
@@ -130,7 +126,6 @@ label {
     -webkit-transform: transform(1.2));
     -moz-transform: transform(1.2));
     -o-transform: transform(1.2));
-
 }
 
 .nypatient {
@@ -152,16 +147,20 @@ label {
     -o-transform: transform(1.2));
 }
 
-.ts,
-.omos,
-.ts1 {
-    width: 100%;
-}
-
 .skov {
     width: 100%;
     display: none;
     margin-top: 1%;
+}
+
+/*--------------------------------TOP-BILLEDE-SLUT--------------------------*/
+
+/*--------------------------------CSS-GRID-START-----------------------------*/
+
+.ts1,
+.ts,
+.omos {
+    width: 100%;
 }
 
 .item2 {
@@ -194,7 +193,9 @@ label {
     text-align: center;
 }
 
-/*footer*/
+/*--------------------------------CSS-GRID-SLUT-----------------------------*/
+
+/*--------------------------------FOOTER-START-----------------------------*/
 
 .gridfooter {
     display: grid;
@@ -207,9 +208,7 @@ footer {
     grid-area: footer;
     background-color: white;
     margin-top: 2%;
-
 }
-
 
 .fblogo {
     width: 6%;
@@ -231,24 +230,21 @@ footer {
     font-family: 'Roboto', sans-serif;
     color: #6b6b6b;
     font-size: 70%;
-
 }
 
 #footertlf {
     display: none;
 }
 
-/*footer*/
+/*--------------------------------FOOTER-SLUT-----------------------------*/
 
-/*TABLET*/
+/*--------------------------------TABLET-START-----------------------------*/
+
+/*--------------------------------TABLET-START-----------------------------*/
 
 @media only screen and (min-width: 480px) {
 
-    body {
-        margin: 0%;
-    }
-
-    /*MENU*/
+    /*-----------------------------------MENU-START-----------------------------*/
     .menu {
         display: flex;
         margin-top: 0%;
@@ -262,17 +258,13 @@ footer {
         margin: 2%;
         margin-top: 2px;
         font-family: 'Roboto', sans-serif;
-
-
     }
     .menu a:hover {
         background-color: #7aaddb;
         padding: 7px;
         color: white;
         margin-top: -5px;
-
     }
-
     label {
         margin: 0 40px 0 0;
         font-size: 26px;
@@ -284,8 +276,8 @@ footer {
     #toggle {
         display: none;
     }
-
-    /*MENU*/
+    /*-----------------------------------MENU-SLUT-----------------------------*/
+    /*-----------------------------------HEADER-START-----------------------------*/
     #logo {
         width: 48%;
         margin-left: 10%;
@@ -297,7 +289,8 @@ footer {
         font-size: 60%;
         color: white;
     }
-
+    /*-----------------------------------HEADER-SLUT-----------------------------*/
+    /*--------------------------------TOP-BILLEDE-START-------------------------*/
     .skov {
         width: 80%;
         display: block;
@@ -305,7 +298,6 @@ footer {
         margin-right: auto;
         margin-bottom: 1%;
     }
-
     .bestiltid {
         width: 18%;
         position: absolute;
@@ -321,7 +313,6 @@ footer {
         margin-top: -7%;
         margin-left: 40%;
     }
-
     .nypatient:hover {
         margin-left: 39%;
         margin-top: -8%;
@@ -330,6 +321,8 @@ footer {
         width: 100%;
         display: none;
     }
+    /*--------------------------------TOP-BILLEDE-SLUT-------------------------*/
+    /*--------------------------------CSS-GRID-START-------------------------*/
     .item2 {
         grid-area: tandlægeskræk;
     }
@@ -343,13 +336,11 @@ footer {
     .item5 {
         grid-area: omos;
     }
-
     .grid-container {
         display: grid;
         grid-template-areas: 'priser billede' 'tandlægeskræk tandlægeskræk' 'omos omos';
         margin-left: 10%;
         margin-right: 10%;
-
     }
     .grid-container > div {
         background-color: ;
@@ -360,45 +351,44 @@ footer {
         grid-template-areas: 'footer';
         position: relative;
         grid-template-rows: 80px;
-
     }
-
+    /*--------------------------------CSS-GRID-SLUT-------------------------*/
+    /*--------------------------------FOOTER-START-------------------------*/
     .fblogo {
         width: 4%;
         margin-top: 2%;
         float: right;
     }
-
     .maps {
         width: 4%;
         margin-top: 2%;
         float: right;
         margin-right: 10%;
     }
-
     #footeradresse {
         float: left;
         margin-left: 10%;
         font-family: 'Roboto', sans-serif;
         color: #6b6b6b;
         font-size: 15px;
-
     }
-
 }
 
-/*DESKTOP*/
+/*--------------------------------FOOTER-SLUT-------------------------*/
+
+/*--------------------------------TABLET-SLUT-----------------------------*/
+
+/*--------------------------------TABLET-SLUT-----------------------------*/
+
+/*--------------------------------PC-START-----------------------------*/
+
+/*--------------------------------PC-START-----------------------------*/
 
 @media only screen and (min-width: 1024px) {
 
-    body {
-        margin: 0%;
-    }
-
-    /*MENU*/
+    /*-----------------------------------MENU-START-----------------------------*/
     .menu {
         display: flex;
-        margin-top: 0%;
         justify-content: center;
     }
     .menu a {
@@ -415,9 +405,7 @@ footer {
         padding: 7px;
         color: white;
         margin-top: -5px;
-
     }
-
     label {
         margin: 0 40px 0 0;
         font-size: 26px;
@@ -429,36 +417,22 @@ footer {
     #toggle {
         display: none;
     }
-
-    /*MENU*/
+    /*-----------------------------------MENU-SLUT---------------------------*/
+    /*---------------------------------HEADER-START--------------------------*/
     #logo {
         width: 40%;
         margin-left: 13%;
         margin-top: -1.2%;
-
     }
-
-
     #tlf {
         font-family: 'Roboto', sans-serif;
         font-size: 60%;
         color: white;
-
     }
+ /*---------------------------------HEADER-SLUT--------------------------*/
 
-    .grid-container1 {
-        display: grid;
-        grid-template-areas: 'header header header header header header' 'header2 header2 header2 header2 header2 header2' 'header3 header3 header3 header3 header3 header3';
-        grid-template-rows: 30px 60px 60px;
-
-    }
-    .grid-container1 > div {
-        text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
-    }
-
-    .skov {
+/*------------------------------TOP-BILLEDE-START------------------------*/
+      .skov {
         width: 74%;
         display: block;
         margin-left: auto;
@@ -489,6 +463,19 @@ footer {
         width: 100%;
         display: none;
     }
+/*------------------------------TOP-BILLEDE-SLUT------------------------*/    
+    
+/*---------------------------------CSS-GRID-START--------------------------*/
+    .grid-container1 {
+        display: grid;
+        grid-template-areas: 'header header header header header header' 'header2 header2 header2 header2 header2 header2' 'header3 header3 header3 header3 header3 header3';
+        grid-template-rows: 30px 60px 60px;
+    }
+    .grid-container1 > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
     .item2 {
         grid-area: tandlægeskræk;
     }
@@ -510,8 +497,9 @@ footer {
         margin-right: 13%;
         margin-top: 1%;
     }
+/*---------------------------------CSS-GRID-SLUT--------------------------*/
 
-    /*footer*/
+/*---------------------------------FOOTER-START--------------------------*/
     .gridfooter {
         display: grid;
         grid-template-areas: 'footer';
@@ -522,23 +510,19 @@ footer {
         grid-area: footer;
         background-color: white;
         margin-top: 2%;
-
     }
-
     .fblogo {
         width: 3%;
         float: right;
         margin-right: 23%;
         margin-top: -3.5%
     }
-
     .maps {
         width: 3.4%;
         float: right;
         margin-top: -4%;
         margin-right: 13%;
     }
-
     #footeradresse {
         float: left;
         margin-left: 13%;
@@ -546,7 +530,6 @@ footer {
         color: #6b6b6b;
         font-size: 15px;
     }
-
     #footertlf {
         margin-left: 45%;
         font-family: 'Roboto', sans-serif;
@@ -554,5 +537,43 @@ footer {
         display: block;
         font-size: 15px;
     }
-    /*footer*/
+}
+/*---------------------------------FOOTER-SLUT--------------------------*/
+
+/*---------------------------------PC-SLUT--------------------------*/
+/*---------------------------------PC-SLUT--------------------------*/
+
+
+strong {
+    
+    background-color: white;
+}
+.columns {
+    background-color: white;
+     margin-left: 13%;
+    margin-right: 13%;
+}
+
+li {
+    font-size: 80%;
+    display: block;
+    background-color: white;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #6b6b6b;
+}
+
+.haha {
+    text-decoration: underline;
+    text-align: left; 
+}
+.price {
+    background-color: white;
+
+    
+}
+.hpris {
+    margin-left: 4.5%;
+    color: #7aaddb;
 }
