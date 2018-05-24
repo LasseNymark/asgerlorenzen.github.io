@@ -536,9 +536,11 @@ footer {
         font-family: 'Roboto', sans-serif;
         color: #6b6b6b;
         display: block;
-        font-size: 15px;
+        font-size: 15px;  
     }
-}
+a {
+      text-decoration:none;
+   }
 /*---------------------------------FOOTER-SLUT--------------------------*/
 
 /*---------------------------------PC-SLUT--------------------------*/
@@ -577,4 +579,5 @@ li {
 .hpris {
     margin-left: 4.5%;
     color: #7aaddb;
+}
 }
