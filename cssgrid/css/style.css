@@ -214,7 +214,8 @@ label {
     display: none;
 }
 .tandpastabillede1{
-    width: 100%;
+    width: 50%;
+   justify-content: center;
 }
 .nypatienttekst {
   
