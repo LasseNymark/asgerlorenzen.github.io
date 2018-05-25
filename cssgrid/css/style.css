@@ -15,7 +15,8 @@ body h1,
 h2,
 h3,
 h4,
-h5 {
+h5
+{
     font-family: 'Roboto', sans-serif;
     color: #7aaddb;
 }
@@ -38,7 +39,7 @@ label {
     z-index: 2;
     position: absolute;
     background-color: #f5f5f5;
-    margin-top: 14.3%;
+    margin-top: 9%;
 }
 
 .menu a {
@@ -122,23 +123,23 @@ label {
     position: relative;
 }
 
-.bestiltid {
+.aabningstid {
     width: 40%;
     position: absolute;
     margin-top: 63%;
     margin-left: 30%;
     z-index: 1;
-    transition: transform 0, 5s;
+    transition: transform 0.5s;
 }
 
-.bestiltid:hover {
+.aabningstid:hover {
     padding: 5px;
     transform: scale(1.2);
     margin-left: 29%;
     -ms-transform: translateY(1.2);
-    -webkit-transform: translateY(1.2));
-    -moz-transform: translateY(1.2));
-    -o-transform: translateY(1.2));
+    -webkit-transform: translateY(1.2);
+    -moz-transform: translateY(1.2);
+    -o-transform: translateY(1.2);
 }
 
 .nypatient {
@@ -147,17 +148,17 @@ label {
     margin-top: 78%;
     margin-left: 30%;
     z-index: 1;
-    transition: transform 0, 5s;
+    transition: transform 0.5s;
 }
 
 .nypatient:hover {
     padding: 5px;
     transform: scale(1.2);
     margin-left: 29%;
-    -ms-transform: translateY(1.2));
-    -webkit-transform: translateY(1.2));
-    -moz-transform: translateY(1.2));
-    -o-transform: translateY(1.2));
+    -ms-transform: translateY(1.2);
+    -webkit-transform: translateY(1.2);
+    -moz-transform: translateY(1.2);
+    -o-transform: translateY(1.2);
 }
 
 .skov {
@@ -177,7 +178,7 @@ label {
 }
 
 .item2 {
-    grid-area: tandlægeskræk;
+    grid-area: tandlaegeskraek;
 }
 
 .item3 {
@@ -195,19 +196,156 @@ label {
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'tandlægeskræk' 'priser' 'omos' 'billede';
+    grid-template-areas: 'tandlaegeskraek' 'priser' 'omos' 'billede';
     grid-gap: 1%;
     margin-left: 3%;
     margin-right: 3%;
 }
 
 .grid-container > div {
-    background-color: ;
     text-align: center;
 }
 
 /*--------------------------------CSS-GRID-SLUT-----------------------------*/
 
+
+/*----------------------------------Ny patient MOBIL———————————————*/
+
+.tandpastabillede {
+    
+    display: none;
+}
+
+.tandpastabillede1{
+    width: 100%;
+}
+
+
+
+.nypatienttekst {
+  
+    background-color: white;
+    padding: 1%;
+    
+}
+
+.kopbillede {
+    
+    width: 100%; 
+   
+}
+
+
+
+.tandpastabillede {
+    
+    width: 100%; 
+    
+
+}
+
+.afbudtekst {
+    
+    background-color: white;
+    
+      padding: 1%;
+    }
+/*----------------------------------Ny patient MOBIL———————————————*/
+
+
+
+/* OMOS */
+.omosgrid {
+        display: grid;
+        grid-template-areas: ' aabningstider' 'mai'
+            'mammad''lotte''camilla'
+            'hanna''mission'
+            ;
+        grid-template-columns: 1fr;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
+        grid-gap: 1%;
+    }
+    .aabningstider {
+        grid-area: aabningstider;
+        text-align: center;
+        background-color: white;
+        margin-bottom: 3%;
+    }
+ .aabningsbillede {
+    margin-left: 13%;
+        margin-right: 13%;
+        width: 74%;
+        margin-top: 2%;
+     display: none;
+    }
+
+span {
+color: #7aaddb;
+}
+.personaletitel {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #7aaddb;
+    font-size: 90%;
+    color: darkgrey;
+    margin: 0; 
+}
+
+.dage {
+    line-height: 1.8;
+    text-align:center;
+}
+    .profil {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 40%;
+        margin-top: 2%;
+    }
+    .mai {
+        grid-area: mai;
+        background-color: white;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+    .mammad {
+        grid-area: mammad;
+        background-color: white;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+    .lotte {
+        grid-area: lotte;
+        background-color: white;
+        padding: 2%;
+         margin-bottom: 3%;
+    }
+    .camilla {
+        grid-area: camilla;
+        background-color: white;
+        padding: 2%;
+         margin-bottom: 3%;
+    }
+    .hanna {
+        grid-area: hanna;
+        background-color: white;
+        padding: 2%;
+         margin-bottom: 3%;
+    }
+    .mission {
+        grid-area: mission;
+        color: #6b6b6b;
+        background-color: white;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+
+    .omosgrid h4 {
+        text-align: center;
+    }
+/* OM OS SLUT*/
 /*--------------------------------FOOTER-START-----------------------------*/
 
 .gridfooter {
@@ -311,13 +449,13 @@ footer {
         margin-right: auto;
         margin-bottom: 1%;
     }
-    .bestiltid {
+    .aabningstid {
         width: 18%;
         position: absolute;
         margin-top: -14%;
         margin-left: 40%
     }
-    .bestiltid:hover {
+    .aabningstid:hover {
         margin-left: 39%;
     }
     .nypatient {
@@ -337,7 +475,7 @@ footer {
     /*--------------------------------TOP-BILLEDE-SLUT-------------------------*/
     /*--------------------------------CSS-GRID-START-------------------------*/
     .item2 {
-        grid-area: tandlægeskræk;
+        grid-area: tandlaegeskraek;
     }
     .item3 {
         grid-area: priser;
@@ -351,12 +489,11 @@ footer {
     }
     .grid-container {
         display: grid;
-        grid-template-areas: 'priser billede' 'tandlægeskræk tandlægeskræk' 'omos omos';
+        grid-template-areas: 'priser billede' 'tandlaegeskraek tandlaegeskraek' 'omos omos';
         margin-left: 10%;
         margin-right: 10%;
     }
     .grid-container > div {
-        background-color: ;
         text-align: center;
     }
     .gridfooter {
@@ -366,6 +503,69 @@ footer {
         grid-template-rows: 80px;
     }
     /*--------------------------------CSS-GRID-SLUT-------------------------*/
+    
+    /*--------------------------------Ny patient TABLET————————————*/
+    
+    .nypatientflex{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    width: 100%;
+        }
+.nypatienttekst {
+ margin: 1%;
+    background-color: white;
+    width: 34%;
+    padding: 0.5%;
+    height: 300px;
+    
+}
+
+.kopbillede {
+    
+margin: 1%;
+    background-color: white;
+    width: 34%; 
+    height: 309px; 
+   
+}
+
+    
+.nypatientflex1{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    width: 100%;
+
+    
+}
+
+.tandpastabillede {
+    margin: 1%;
+    display: block;
+    width: 35%; 
+    height: 50%; 
+   
+
+}
+
+.afbudtekst {
+   
+    background-color: white;
+    padding: 0.5%;
+    width:33%;
+    margin: 1%;
+    
+    }
+    
+    
+    .tandpastabillede1{
+    display: none;
+}
+    
+/*--------------------------------Ny patient TABLET————————————*/
+
+    
     /*--------------------------------FOOTER-START-------------------------*/
     .fblogo {
         width: 4%;
@@ -385,7 +585,7 @@ footer {
         color: #6b6b6b;
         font-size: 15px;
     }
-}
+
 
 /*--------------------------------FOOTER-SLUT-------------------------*/
 
@@ -395,11 +595,11 @@ footer {
 
 .omosgrid {
     display: grid;
-    grid-template-areas: 'billede9 billede9' 'aabningstider mission' 'mai mammad' 'camilla hanna' 'lotte none';
+    grid-template-areas: 'mai mammad' 'lotte hanna' 'camilla none';
     grid-template-columns: 1fr 1fr;
     margin-left: 13%;
     margin-right: 13%;
-    margin-top: 11%;
+    margin-top: 2%;
     grid-gap: 1%;
 }
 
@@ -408,9 +608,17 @@ footer {
     text-align: left;
     background-color: white;
     margin-bottom: 3%;
+    display: none;
 }
 
-
+.aabningsbillede {
+    margin-left: 13%;
+        margin-right: 13%;
+        width: 74%;
+        margin-top: 2%;
+        display: block;
+    }
+    
 .aabningstider h2 {
     text-align: center;
     color: #7aaddb;
@@ -429,9 +637,6 @@ footer {
 
 }
 
-.billede9 {
-    grid-area: billede9;
-}
 
 .profil {
     margin-left: auto;
@@ -479,19 +684,20 @@ footer {
     background-color: white;
     margin-bottom: 3%;
     padding: 2%;
+    display: none;
 }
 
 .omosgrid h4 {
     text-align: center;
 }
-
+}
 
 /*--------------------------------PC-START-----------------------------*/
 
 /*--------------------------------PC-START-----------------------------*/
 
 @media only screen and (min-width: 1024px) {
-
+    
     /*-----------------------------------MENU-START-----------------------------*/
     .menu {
         display: flex;
@@ -526,9 +732,9 @@ footer {
     /*-----------------------------------MENU-SLUT---------------------------*/
     /*---------------------------------HEADER-START--------------------------*/
     #logo {
-        width: 40%;
+        width: 30%;
         margin-left: 13%;
-        margin-top: -1.2%;
+        margin-top: -1%;
     }
     #tlf {
         font-family: 'Roboto', sans-serif;
@@ -555,13 +761,13 @@ footer {
         margin-top: 2%;
     }
 
-    .bestiltid {
+    .aabningstid {
         width: 14%;
         position: absolute;
         margin-top: -14%;
         margin-left: 43%
     }
-    .bestiltid:hover {
+    .aabningstid:hover {
         margin-left: 42.5%;
     }
 
@@ -579,9 +785,56 @@ footer {
         display: none;
     }
     /*------------------------------TOP-BILLEDE-SLUT------------------------*/
+    
+    
+    /*---------------------------------Ny patient PC SKÆRM—————————————*/
+
+
+    
+
+.nypatientflex{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+}
+
+.nypatienttekst {
+    background-color: white;
+    width: 31%;  
+}
+.kopbillede {
+    
+margin: 1%;
+    background-color: white;
+    width: 31%; 
+    align-self: flex-end;
+    }   
+.nypatientflex1{
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    width: 100%;
+}
+.tandpastabillede {
+    display: block;
+    width: 31%; 
+}
+
+.afbudtekst {
+    background-color: white;
+    padding: 0.5%;
+    margin: 1%;
+    align-content: stretch;
+    } 
+    .tandpastabillede1{
+    display: none;
+}
+    
+ /*---------------------------------Ny patient PC SKÆRM—————————————*/
+    
     /*---------------------------------CSS-GRID-START--------------------------*/
     .item2 {
-        grid-area: tandlægeskræk;
+        grid-area: tandlaegeskraek;
     }
     .item3 {
         grid-area: priser;
@@ -595,8 +848,7 @@ footer {
     }
     .grid-container {
         display: grid;
-        grid-template-areas: 'tandlægeskræk tandlægeskræk priser billede''tandlægeskræk tandlægeskræk omos omos';
-        grid-gap: ;
+        grid-template-areas: 'tandlaegeskraek tandlaegeskraek priser billede''tandlaegeskraek tandlaegeskraek omos omos';
         margin-left: 13%;
         margin-right: 13%;
         margin-top: 1%;
@@ -673,21 +925,28 @@ footer {
     }
     .price {
         background-color: white;
-
-
     }
     .hpris {
         margin-left: 4.5%;
         color: #7aaddb;
     }
     /*---------------------------------PRISER-SLUT--------------------------*/
+    .aabningsbillede {
+    margin-left: 13%;
+        margin-right: 13%;
+        width: 74%;
+        margin-top: 2%;
+        display: block;
+    }
+    
     .omosgrid {
         display: grid;
-        grid-template-areas: 'billede9 billede9 aabningstider' 'mai mammad mission' 'hanna camilla lotte';
+        grid-template-areas: 'mai mammad mission' 'lotte camilla hanna'
+            ;
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: 13%;
         margin-right: 13%;
-        margin-top: 11%;
+        margin-top: 1%;
         grid-gap: 1%;
     }
     .aabningstider {
@@ -695,30 +954,10 @@ footer {
         text-align: left;
         background-color: white;
         margin-bottom: 3%;
+        align-content: stretch;
+        display: none;
     }
-
-
-    .aabningstider h2 {
-        text-align: center;
-        color: #7aaddb;
-
-    }
-    #dage {
-        color: #7aaddb;
-        font-size: 120%;
-
-    }
-    #tidspunkt {
-        color: #6b6b6b;
-        font-size: 120%;
-
-    }
-
-    .billede9 {
-        grid-area: billede9;
-
-    }
-
+  
     .profil {
         margin-left: auto;
         margin-right: auto;
@@ -742,16 +981,19 @@ footer {
         grid-area: lotte;
         background-color: white;
         padding: 2%;
+         margin-bottom: 3%;
     }
     .camilla {
         grid-area: camilla;
         background-color: white;
         padding: 2%;
+         margin-bottom: 3%;
     }
     .hanna {
         grid-area: hanna;
         background-color: white;
         padding: 2%;
+         margin-bottom: 3%;
     }
     .mission {
         grid-area: mission;
@@ -759,11 +1001,12 @@ footer {
         background-color: white;
         margin-bottom: 3%;
         padding: 2%;
+        display: block;
     }
 
     .omosgrid h4 {
         text-align: center;
     }
-
 }
+   
 
