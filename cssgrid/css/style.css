@@ -179,9 +179,17 @@ label {
 .item2 {
     grid-area: tandlaegeskraek;
 }
+.item2:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
 
 .item3 {
     grid-area: priser;
+}
+.item3:hover {
+    opacity: 0.6;
+    transition: .5s ease;
 }
 
 .item4 {
@@ -192,6 +200,11 @@ label {
 .item5 {
     grid-area: omos;
 }
+.item5:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
 
 .grid-container {
     display: grid;
