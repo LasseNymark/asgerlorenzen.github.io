@@ -359,8 +359,8 @@ span {
   .tandgrid {
         display: flex;
      flex-direction: column;
-        margin-right: 3%;
-        margin-left: 3%;
+       margin-left: 3%;
+      margin-right: 4.5%;
     }
     .tandinfo {
     margin-top: 3%;
