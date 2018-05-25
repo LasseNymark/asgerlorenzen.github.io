@@ -246,6 +246,10 @@ label {
     background-color: white;
       padding: 3%;
     }
+.omostlf {
+    text-decoration-line: underline;
+    color: #7aaddb;
+}
 /*----------------------------------Ny patient MOBIL———————————————*/
 
 /* OMOS */
@@ -350,6 +354,15 @@ span {
 
 /* OM OS SLUT*/
 
+/*TANDSKRAEK START */
+
+ .tandgrid {
+        display: flex;
+     flex-direction: column;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+/*TANDSKRAEK START */
 /*--------------------------------FOOTER-START-----------------------------*/
 
 .gridfooter {
@@ -508,56 +521,78 @@ footer {
     }
     /*--------------------------------CSS-GRID-SLUT-------------------------*/
     /*--------------------------------Ny patient TABLET————————————*/
-   .nypatientflex {
+
+     .nypatientflex {
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+    align-content: stretch;
     width: 100%;
-        height: 200px; 
-         }
+    height: 300px;
+    
+}
+
+
+
 .nypatienttekst {
- margin: 0.5%;
+ margin-top: 1%;
     background-color: white;
-    width: 35%;
-    padding: 1%;
-    height: 190px;
-    font-size: 66%; 
+    width: 30%;
+    padding: 0.5%;
+    font-size: 90%; 
+    height: 300px; 
+    
+    
 }
 
 .kopbillede {
     
-margin: 0.5%;
+margin: 1%;
     background-color: white;
-    width: 34%; 
-    height: 210px; 
+    width: 36%; 
+    height: 310px; 
+    align-content: flex-end;
+     
+   
 }
 
+    
 .nypatientflex1{
-height: 250px;
-    margin-top: 02%;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
     width: 100%;
+    margin-top: 4%; 
+    
+
+    
 }
 
 .tandpastabillede {
-   margin: 0.5%;
+    margin: % ;
     display: block;
-    width: 36%; 
-   height: 210px;
+    width: 31%; 
+    height: 50%; 
+    height: 200px; 
+
 }
 
 .afbudtekst {
-   align-content: stretch;
+   
     background-color: white;
-    padding: 1%;
-    width:33%;
-    margin: 0.5%;
-    height: 190px;
-    font-size: 60%;
+    padding: 0.5%;
+    width:37%;
+    margin: %;
+    font-size: 90%;
+     height: 190px; 
     }
     
     
-    .tandpastabillede1{
+    .tandpastabillede1
+    {
     display: none;
 }
-
-
+    
     /*--------------------------------Ny patient TABLET————————————*/
     /*--------------------------------FOOTER-START-------------------------*/
     .fblogo {
@@ -682,6 +717,40 @@ height: 250px;
     }
 }
 
+
+/*TANDSKRAEK START*/ 
+
+ .tandgrid {
+        display: flex;
+     flex-direction: column;
+        margin-right: 13%;
+        margin-left: 13%;
+    }
+    .tandinfo {
+    margin: 2% 0% 1% 0%;
+    background-color: white;
+    display: flex;
+        flex-direction: column;
+    width: 100%;
+        padding: 1%;
+        
+    }
+
+    .tandinfo2 {
+    margin: 2% 0% 1% 0%;
+    background-color: white;
+    display: flex;
+         flex-direction: column;
+    width: 100%;
+        padding: 1%;
+    }
+    .blomst {
+        width: 74%;
+        margin-right: 13%;
+        margin-left: 13%;
+        display: none;
+    }
+/*TANDSKRAEK START*/ 
 /*--------------------------------PC-START-----------------------------*/
 
 /*--------------------------------PC-START-----------------------------*/
@@ -948,6 +1017,8 @@ margin: 1%;
         color: #7aaddb;
     }
     /*---------------------------------PRISER-SLUT--------------------------*/
+     /*---------------------------------OM OS---------------------------*/
+    
     .aabningsbillede {
         margin-left: 13%;
         margin-right: 13%;
@@ -1022,5 +1093,41 @@ margin: 1%;
 
     .omosgrid h4 {
         text-align: center;
+    }
+     /*---------------------------------OM SLUT---------------------------*/
+     /*---------------------------------Tandlægeskræk-start-------------------------*/
+    .tandgrid {
+        display: flex;
+        margin-right: 13%;
+        margin-left: 13%;
+        flex-direction: row;
+    
+    }
+    .tandinfo {
+    margin: 2% 1% 1% 0%;
+    background-color: white;
+    display: flex;
+        flex-direction: column;
+    width: 100%;
+        padding: 1%;
+        
+    }
+    .tandinfo h2 {
+
+    }
+    .tandinfo2 {
+    margin: 2% 0% 1% 1%;
+    background-color: white;
+    display: flex;
+         flex-direction: column;
+    min-height: 100px;
+    width: 100%;
+        padding: 1%;
+    }
+    .blomst {
+        width: 74%;
+        margin-right: 13%;
+        margin-left: 13%;
+        display: block;
     }
 }
