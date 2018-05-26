@@ -226,30 +226,46 @@ label {
     
     display: none;
 }
+
 .tandpastabillede1{
     width: 100%;
 }
+
+
+
 .nypatienttekst {
   
     background-color: white;
-    padding: 3%;  
+    padding: 1%;
+    
 }
+
 .kopbillede {
     
-    width: 100%;  
+    width: 100%; 
+   
 }
+
+
+
 .tandpastabillede {
     
     width: 100%; 
+    
+
 }
-.afbudtekst { 
+
+.afbudtekst {
+    
     background-color: white;
-      padding: 3%;
+    
+      padding: 1%;
     }
 .omostlf {
     text-decoration-line: underline;
     color: #7aaddb;
 }
+
 /*----------------------------------Ny patient MOBIL———————————————*/
 
 /* OMOS */
@@ -543,37 +559,35 @@ footer {
     /*--------------------------------CSS-GRID-SLUT-------------------------*/
     /*--------------------------------Ny patient TABLET————————————*/
 
-     .nypatientflex {
+     
+.nypatientflex {
     margin-left: 13%;
     margin-right: 13%;
     display: flex;
-    align-content: stretch;
+ align-content: flex-end;
     width: 100%;
-    height: 300px;
-    
-}
-
-
-
+        height: 200px; 
+        
+        
+        
+        }
 .nypatienttekst {
- margin-top: 1%;
+ margin: 0.5%;
     background-color: white;
-    width: 30%;
+    width: 35%;
     padding: 0.5%;
-    font-size: 90%; 
-    height: 300px; 
-    
+    height: 200px;
+    font-size: 66%;
+ 
     
 }
 
 .kopbillede {
     
-margin: 1%;
+margin: 0.5%;
     background-color: white;
-    width: 36%; 
-    height: 310px; 
-    align-content: flex-end;
-     
+    width: 34%; 
+    height: 210px; 
    
 }
 
@@ -582,35 +596,37 @@ margin: 1%;
     margin-left: 13%;
     margin-right: 13%;
     display: flex;
+    align-content: center;
+height: 250px;
+    margin-top: 02%;
     width: 100%;
-    margin-top: 4%; 
-    
 
-    
 }
 
 .tandpastabillede {
+   margin: 0.5%;
     display: block;
-    width: 31%; 
-    height: 50%; 
-    height: 200px; 
+    width: 36%; 
+   height: 210px;
 
 }
 
 .afbudtekst {
-   
+   align-content: stretch;
     background-color: white;
     padding: 0.5%;
-    width:37%;
-    font-size: 90%;
-     height: 190px; 
+    width:33%;
+    margin: 0.5%;
+    height: 204px;
+    font-size: 60%;
+    
     }
     
     
-    .tandpastabillede1
-    {
+    .tandpastabillede1{
     display: none;
 }
+
     
     /*--------------------------------Ny patient TABLET————————————*/
     /*--------------------------------FOOTER-START-------------------------*/
@@ -910,6 +926,7 @@ margin: 1%;
 }
 
 .tandpastabillede {
+    margin: % ;
     display: block;
     width: 31%; 
     height: 50%; 
@@ -922,6 +939,7 @@ margin: 1%;
     background-color: white;
     padding: 0.5%;
     width:37%;
+    margin: %;
     font-size: 90%;
      height: 190px; 
     }
@@ -931,6 +949,7 @@ margin: 1%;
     {
     display: none;
 }
+
 
 
     /*---------------------------------Ny patient PC SKÆRM—————————————*/
