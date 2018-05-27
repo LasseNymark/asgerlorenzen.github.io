@@ -987,6 +987,7 @@ margin: 1%;
     }
     .item5 {
         grid-area: omos;
+        margin-top: 2.1%;
     }
     .grid-container {
         display: grid;
@@ -994,6 +995,7 @@ margin: 1%;
         margin-left: 13%;
         margin-right: 13%;
         margin-top: 1%;
+        grid-gap: 1%;
     }
     /*---------------------------------CSS-GRID-SLUT--------------------------*/
     /*---------------------------------FOOTER-START--------------------------*/
