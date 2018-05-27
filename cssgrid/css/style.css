@@ -326,8 +326,8 @@ table#t01 tr:nth-child(odd) {
 }
 
 table#t01 th {
-    background-color: #7aaddb;
-    color: white;
+    background-color: white;;
+    color: #7aaddb;
 }
 
 /*---------------------------------PRISER-SLUT--------------------------*/
@@ -759,10 +759,10 @@ footer {
         background-color: #fff;
         font-family: 'Open-Sans', sans-serif;
     }
-    table#t01 th {
-        background-color: #7aaddb;
-        color: white;
-    }
+     thtable#t01 th {
+    background-color: white;;
+    color: #7aaddb;
+}
 
     /*---------------------------------PRISER-SLUT--------------------------*/
     /*--------------------------------FOOTER-START-------------------------*/
@@ -1276,10 +1276,10 @@ footer {
         background-color: #fff;
         font-family: 'Open-Sans', sans-serif;
     }
-    table#t01 th {
-        background-color: #7aaddb;
-        color: white;
-    }
+    thtable#t01 th {
+    background-color: white;;
+    color: #7aaddb;
+}
 
     /*---------------------------------Tandlægeskræk-start-------------------------*/
     .tandgrid {
