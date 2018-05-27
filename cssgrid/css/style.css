@@ -8,7 +8,7 @@ p {
     font-family: 'Open-Sans', sans-serif;
     color: #6b6b6b;
     text-align: justify;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 body h1,
@@ -370,13 +370,13 @@ span {
 
 /* OM OS SLUT*/
 
-/*TANDSKRAEK START */
+/*TANDSKRÆK START */
 
   .tandgrid {
         display: flex;
      flex-direction: column;
        margin-left: 3%;
-      margin-right: 4.5%;
+      margin-right: 8%;
     }
     .tandinfo {
     margin-top: 3%;
@@ -385,7 +385,7 @@ span {
     display: flex;
         flex-direction: column;
     width: 100%;
-        padding: 1%;
+        padding: 3%;
     }
 
     .tandinfo2 {
@@ -393,13 +393,22 @@ span {
     display: flex;
          flex-direction: column;
     width: 100%;
-        padding: 1%;
+        padding: 3%;
     }
+
+.tandinfo h2 {
+    line-height: 0%;
+font-size: 130%;
+}
+.tandinfo2 h2 {
+    line-height: 0%;
+    font-size: 130%;
+}
     .blomst {
    display: none;
     }
  
-/*TANDSKRAEK START */
+/*TANDSKRÆK slut */
 /*--------------------------------FOOTER-START-----------------------------*/
 
 .gridfooter {
@@ -578,7 +587,7 @@ footer {
     padding: 0.5%;
     height: 200px;
     font-size: 66%;
- 
+ line-height: 1.3%;
     
 }
 
@@ -619,6 +628,7 @@ height: 250px;
     margin: 0.5%;
     height: 204px;
     font-size: 60%;
+    line-height: 1.3%;
     
     }
     
@@ -752,12 +762,12 @@ height: 250px;
     }
 
 
-/*TANDSKRAEK START*/ 
+/*TANDSKRÆK START*/ 
 
  .tandgrid {
         display: flex;
      flex-direction: column;
-        margin-right: 10%;
+        margin-right: 11%;
         margin-left: 10%;
     }
     .tandinfo {
@@ -767,7 +777,7 @@ height: 250px;
     display: flex;
         flex-direction: column;
     width: 100%;
-        padding: 1%;
+        padding: 2%;
     }
 
     .tandinfo2 {
@@ -775,7 +785,7 @@ height: 250px;
     display: flex;
          flex-direction: column;
     width: 100%;
-        padding: 1%;
+        padding: 2%;
     }
     .blomst {
         width: 74%;
@@ -784,7 +794,7 @@ height: 250px;
         display: none;
     }
 
-/*TANDSKRAEK START*/ 
+/*TANDSKRÆK SLUT*/ 
 /*--------------------------------PC-START-----------------------------*/
 
 /*--------------------------------PC-START-----------------------------*/
@@ -1143,11 +1153,14 @@ margin: 1%;
     display: flex;
         flex-direction: column;
     width: 100%;
-        padding: 1%;
+        padding: 2%;
         
     }
     .tandinfo h2 {
-
+line-height: 0%;
+    }
+      .tandinfo2 h2 {
+line-height: 0%;
     }
     .tandinfo2 {
     margin: 2% 0% 1% 1%;
@@ -1156,7 +1169,7 @@ margin: 1%;
          flex-direction: column;
     min-height: 100px;
     width: 100%;
-        padding: 1%;
+           padding: 2%;
     }
     .blomst {
         width: 74%;
