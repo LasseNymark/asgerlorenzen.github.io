@@ -187,6 +187,7 @@ label {
 
 .item3 {
     grid-area: priser;
+    display: none;
 }
 .item3:hover {
     opacity: 0.6;
@@ -209,10 +210,18 @@ label {
     opacity: 0.6;
     transition: .5s ease;
 }
+.item7 {
+    grid-area: prisermobil;
+    display: block;
+}
+.item7:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'tandlaegeskraek' 'priser' 'omos' 'billede';
+    grid-template-areas: 'tandlaegeskraek' 'prisermobil' 'omos' 'billede';
     grid-gap: 1%;
     margin-left: 3%;
     margin-right: 3%;
@@ -557,6 +566,7 @@ footer {
     }
     .item3 {
         grid-area: priser;
+        display: block;
     }
     .item4 {
         grid-area: billede;
@@ -569,6 +579,10 @@ footer {
         grid-area: tandlaegeskraekipad;
         display: block;
     }
+    .item7 {
+    grid-area: prisermobil;
+    display: none;
+}
     .grid-container {
         display: grid;
         grid-template-areas: 'priser billede' 'tandlaegeskraekipad tandlaegeskraekipad' 'omos omos';
@@ -990,6 +1004,7 @@ margin: 1%;
     }
     .item3 {
         grid-area: priser;
+        display: block;
     }
     .item4 {
         grid-area: billede;
@@ -1003,6 +1018,11 @@ margin: 1%;
         grid-area: tandlaegeskraekipad;
         display: none;
     }
+    .item7 {
+    grid-area: prisermobil;
+    display: none;
+}
+    
     .grid-container {
         display: grid;
         grid-template-areas: 'tandlaegeskraek tandlaegeskraek priser billede''tandlaegeskraek tandlaegeskraek omos omos';
