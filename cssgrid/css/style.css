@@ -286,7 +286,9 @@ label {
     text-align: center;
     background-color: white;
     margin-bottom: 3%;
-     box-shadow: 1px 1px 2px 3px #7aaddb;
+    border-style: solid;
+    color: #7aaddb;
+
 }
 
 .aabningsbillede {
@@ -328,8 +330,7 @@ span {
     background-color: white;
     margin-bottom: 3%;
     padding: 4%;
- border-style: solid; 
-    color: #7aaddb;
+box-shadow: 2px 3px #7aaddb;
 }
 
 .mammad {
@@ -393,7 +394,8 @@ span {
         flex-direction: column;
     width: 100%;
         padding: 3%;
-    }
+        box-shadow: 2px 3px #7aaddb;
+}
 
     .tandinfo2 {
     background-color: white;
@@ -401,8 +403,9 @@ span {
          flex-direction: column;
     width: 100%;
         padding: 3%;
-    }
-
+        box-shadow: 2px 3px #7aaddb;
+}
+    
 .tandinfo h2 {
     line-height: 0%;
 font-size: 130%;
