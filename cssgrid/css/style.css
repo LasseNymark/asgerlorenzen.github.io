@@ -178,6 +178,7 @@ label {
 
 .item2 {
     grid-area: tandlaegeskraek;
+    display: none;
 }
 .item2:hover {
     opacity: 0.6;
@@ -985,6 +986,7 @@ margin: 1%;
     /*---------------------------------CSS-GRID-START--------------------------*/
     .item2 {
         grid-area: tandlaegeskraek;
+        display: block;
     }
     .item3 {
         grid-area: priser;
