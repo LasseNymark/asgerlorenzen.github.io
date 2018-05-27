@@ -204,7 +204,10 @@ label {
     opacity: 0.6;
     transition: .5s ease;
 }
-
+.item6:hover {
+    opacity: 0.6;
+    transition: .5s ease;
+}
 
 .grid-container {
     display: grid;
@@ -549,6 +552,7 @@ footer {
     /*--------------------------------CSS-GRID-START-------------------------*/
     .item2 {
         grid-area: tandlaegeskraek;
+        display: none;
     }
     .item3 {
         grid-area: priser;
@@ -560,9 +564,13 @@ footer {
     .item5 {
         grid-area: omos;
     }
+     .item6 {
+        grid-area: tandlaegeskraekipad;
+        display: block;
+    }
     .grid-container {
         display: grid;
-        grid-template-areas: 'priser billede' 'tandlaegeskraek tandlaegeskraek' 'omos omos';
+        grid-template-areas: 'priser billede' 'tandlaegeskraekipad tandlaegeskraekipad' 'omos omos';
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -988,6 +996,10 @@ margin: 1%;
     .item5 {
         grid-area: omos;
         margin-top: 2.1%;
+    }
+     .item6 {
+        grid-area: tandlaegeskraekipad;
+        display: none;
     }
     .grid-container {
         display: grid;
