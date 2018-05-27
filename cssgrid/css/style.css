@@ -280,11 +280,13 @@ label {
     grid-gap: 1%;
 }
 
+
 .aabningstider {
     grid-area: aabningstider;
     text-align: center;
     background-color: white;
     margin-bottom: 3%;
+     box-shadow: 1px 1px 2px 3px #7aaddb;
 }
 
 .aabningsbillede {
@@ -326,6 +328,8 @@ span {
     background-color: white;
     margin-bottom: 3%;
     padding: 4%;
+ border-style: solid; 
+    color: #7aaddb;
 }
 
 .mammad {
@@ -333,6 +337,7 @@ span {
     background-color: white;
     margin-bottom: 3%;
      padding: 4%;
+    box-shadow: 2px 3px #7aaddb;
 }
 
 .lotte {
@@ -340,21 +345,21 @@ span {
     background-color: white;
      padding: 4%;
     margin-bottom: 3%;
-}
+ box-shadow: 2px 3px #7aaddb;}
 
 .camilla {
     grid-area: camilla;
     background-color: white;
      padding: 4%;
     margin-bottom: 3%;
-}
+ box-shadow: 2px 3px #7aaddb;}
 
 .hanna {
     grid-area: hanna;
     background-color: white;
      padding: 4%;
     margin-bottom: 3%;
-}
+ box-shadow: 2px 3px #7aaddb;}
 
 .mission {
     grid-area: mission;
@@ -362,6 +367,8 @@ span {
     background-color: white;
     margin-bottom: 3%;
      padding: 4%;
+    display: none;
+     box-shadow: 2px 3px #7aaddb;
 }
 
 .omosgrid h4 {
