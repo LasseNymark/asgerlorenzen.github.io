@@ -788,10 +788,11 @@ height: 250px;
         padding: 2%;
     }
     .blomst {
-        width: 74%;
-        margin-right: 13%;
-        margin-left: 13%;
-        display: none;
+        width: 82.1%;
+        margin-right: 10%;
+        margin-left: 10%;
+        display: block;
+        margin-top: 2%;
     }
 
 /*TANDSKRÆK SLUT*/ 
@@ -1176,5 +1177,6 @@ line-height: 0%;
         margin-right: 13%;
         margin-left: 13%;
         display: block;
+     margin-top: 0.5%;
     }
 }
