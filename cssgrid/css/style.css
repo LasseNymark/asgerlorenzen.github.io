@@ -292,7 +292,7 @@ label {
 
 table {
     width: 95%;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -326,8 +326,8 @@ table#t01 tr:nth-child(odd) {
 }
 
 table#t01 th {
-    background-color: white;;
-    color: #7aaddb;
+    background-color: #7aaddb;
+    color: white;
 }
 
 /*---------------------------------PRISER-SLUT--------------------------*/
@@ -759,10 +759,10 @@ footer {
         background-color: #fff;
         font-family: 'Open-Sans', sans-serif;
     }
-     thtable#t01 th {
-    background-color: white;;
-    color: #7aaddb;
-}
+    table#t01 th {
+        background-color: #7aaddb;
+        color: white;
+    }
 
     /*---------------------------------PRISER-SLUT--------------------------*/
     /*--------------------------------FOOTER-START-------------------------*/
@@ -1276,10 +1276,10 @@ footer {
         background-color: #fff;
         font-family: 'Open-Sans', sans-serif;
     }
-    thtable#t01 th {
-    background-color: white;;
-    color: #7aaddb;
-}
+    table#t01 th {
+        background-color: #7aaddb;
+        color: white;
+    }
 
     /*---------------------------------Tandlægeskræk-start-------------------------*/
     .tandgrid {
