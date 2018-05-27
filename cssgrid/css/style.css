@@ -970,7 +970,6 @@ margin: 1%;
 }
 
 .tandpastabillede {
-    margin: % ;
     display: block;
     width: 31%; 
     height: 50%; 
@@ -983,7 +982,6 @@ margin: 1%;
     background-color: white;
     padding: 0.5%;
     width:37%;
-    margin: %;
     font-size: 90%;
      height: 190px; 
     }
