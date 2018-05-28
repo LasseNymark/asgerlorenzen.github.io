@@ -680,7 +680,7 @@ footer {
     /*------------------PRISER-TABLET-START------------------*/
     /*-Inspiration fra https://www.w3schools.com/html/html_tables.asp-*/
     table {
-        width: 81%;
+        width: 79.9%;
         margin-top: 2%;
         margin-left: 10%;
         margin-right: 10%;
@@ -816,7 +816,7 @@ footer {
     .tandgrid {
         display: flex;
         flex-direction: column;
-        margin-right: 11%;
+        margin-right: 13%;
         margin-left: 10%;
     }
     .tandinfo {
@@ -846,8 +846,8 @@ footer {
     /*------------------NY-PATIENT-TABLET-START----------------*/
     .nypatgrid {
         display: flex;
-        margin-right: 13%;
-        margin-left: 13%;
+        margin-right: 10%;
+        margin-left: 10%;
         flex-direction: row;
         margin-top: 1%;
     }
@@ -1036,7 +1036,7 @@ width: 100%
     /*-----------------CSS-GRID-FORSIDE-PC-SLUT---------------*/
     /*-----------------------PRISER-PC-START------------------*/
     table {
-        width: 75%;
+        width: 74%;
         margin-top: 2%;
         margin-left: 13%;
         margin-right: 13%;
