@@ -23,6 +23,7 @@ h5 {
 }
 
 /*--------------------MENU-START-MOBIL---------------------*/
+/*-Inspiration fra https://www.youtube.com/watch?v=xMTs8tAapnQ-*/
 
 label {
     display: block;
@@ -657,6 +658,7 @@ footer {
     }
     /*----------------FORSIDE-TABLET-CSS-GRID-SLUT-------------*/
     /*------------------PRISER-TABLET-START------------------*/
+    /*-Inspiration fra https://www.w3schools.com/html/html_tables.asp-*/
     table {
         width: 81%;
         margin-top: 2%;
