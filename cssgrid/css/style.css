@@ -1,3 +1,5 @@
+/*-----------------------GLOBAL-----------------------*/
+
 body {
     background-color: #dfdfdf;
     margin: 0%;
@@ -20,7 +22,7 @@ h5 {
     color: #7aaddb;
 }
 
-/*-----------------------------------MENU-START------------------------------*/
+/*--------------------MENU-START-MOBIL---------------------*/
 
 label {
     display: block;
@@ -64,9 +66,9 @@ label {
     display: none;
 }
 
-/*-----------------------------------MENU-SLUT------------------------------*/
+/*-----------------------MENU-SLUT-MOBIL---------------------*/
 
-/*--------------------------------HEADER-START------------------------------*/
+/*--------------------HEADER-START-MOBIL--------------------*/
 
 .hblaa {
     grid-area: header;
@@ -110,9 +112,9 @@ label {
     text-decoration: none;
 }
 
-/*--------------------------------HEADER-SLUT------------------------------*/
+/*---------------------HEADER-SLUT-MOBIL-------------------*/
 
-/*--------------------------------TOP-BILLEDE-START-------------------------*/
+/*------------------TOP-BILLEDE-MOBIL-START----------------*/
 
 .mobilskov {
     width: 94%;
@@ -166,9 +168,9 @@ label {
     margin-top: 1%;
 }
 
-/*--------------------------------TOP-BILLEDE-SLUT--------------------------*/
+/*-------------------TOP-BILLEDE-MOBIL-SLUT-----------------*/
 
-/*--------------------------------CSS-GRID-START-----------------------------*/
+/*----------------FORSIDE-MOBIL-CSS-GRID-START---------------*/
 
 .ts1,
 .ts,
@@ -237,60 +239,9 @@ label {
     text-align: center;
 }
 
-/*--------------------------------CSS-GRID-SLUT-----------------------------*/
+/*------------------FORSIDE-MOBIL-CSS-GRID-SLUT--------------*/
 
-/*----------------------------------Ny patient MOBIL———————————————*/
-
-.tandpastabillede {
-    
-    display: none;
-}
-
-.tandpastabillede1{
-    
-    width: 100%;
-}
-
-
-
-.nypatienttekst {
-  margin: 2%; 
-    background-color: white;
-    padding: 1%;
-    
-}
-
-.kopbillede {
-    
-    width: 96%; 
-   margin: 2%;
-}
-
-
-
-.tandpastabillede1 {
-    margin: 2%;
-  
-    width: 96%; 
-    
-
-}
-
-.afbudtekst {
-    
-    background-color: white;
-    margin: 2%;
-      padding: 1%;
-    }
-.omostlf {
-    text-decoration-line: underline;
-    color: #7aaddb;
-}
-
-
-/*----------------------------------Ny patient MOBIL———————————————*/
-
-/*PRISER-START--------------------------*/
+/*------------------------PRISER-MOBIL-START------------------*/
 
 table {
     width: 95%;
@@ -332,9 +283,10 @@ table#t01 th {
     color: white;
 }
 
-/*---------------------------------PRISER-SLUT--------------------------*/
 
-/* OMOS */
+/*------------------------PRISER-MOBIL-SLUT------------------*/
+
+/*------------------------OM-OS-MOBIL-START------------------*/
 
 .omosgrid {
     display: grid;
@@ -345,7 +297,6 @@ table#t01 th {
     margin-top: 3%;
     grid-gap: 1%;
 }
-
 
 .aabningstider {
     grid-area: aabningstider;
@@ -445,9 +396,9 @@ span {
     text-align: center;
 }
 
-/* OM OS SLUT*/
+/*------------------------OM-OS-MOBIL-SLUT------------------*/
 
-/*TANDSKRÆK START */
+/*---------------------TANDLÆGESKRÆK-MOBIL-START---------------*/
 
 .tandgrid {
     display: flex;
@@ -490,9 +441,58 @@ span {
     display: none;
 }
 
-/*TANDSKRÆK slut */
+/*---------------------TANDLÆGESKRÆK-MOBIL-SLUT---------------*/
 
-/*--------------------------------FOOTER-START-----------------------------*/
+/*-------------------------NY-PATIENT-MOBIL-START---------------*/
+
+.tandpastabillede {
+
+    display: none;
+}
+
+.tandpastabillede1 {
+    width: 100%;
+}
+
+.nypatienttekst {
+    margin: 2%;
+    background-color: white;
+    padding: 1%;
+    line-height: 1.4;
+}
+.nypatienttekst ul {
+     font-family: 'Open-Sans', sans-serif;
+    color: #6b6b6b;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.kopbillede {
+
+    width: 96%;
+    margin: 2%;
+}
+
+.tandpastabillede1 {
+    margin: 2%;
+    width: 96%;
+}
+
+.afbudtekst {
+
+    background-color: white;
+    margin: 2%;
+    padding: 1%;
+}
+
+.omostlf {
+    text-decoration-line: underline;
+    color: #7aaddb;
+}
+
+/*------------------------NY-PATIENT-MOBIL-SLUT---------------*/
+
+/*------------------------FOOTER-MOBIL-START------------------*/
 
 .gridfooter {
     display: grid;
@@ -533,15 +533,11 @@ footer {
     display: none;
 }
 
-/*--------------------------------FOOTER-SLUT-----------------------------*/
-
-/*--------------------------------TABLET-START-----------------------------*/
-
-/*--------------------------------TABLET-START-----------------------------*/
+/*------------------------FOOTER-MOBIL-SLUT------------------*/
 
 @media only screen and (min-width: 480px) {
 
-    /*-----------------------------------MENU-START-----------------------------*/
+    /*------------------MENU-START-TABLET-START---------------*/
     .menu {
         display: flex;
         margin-top: 0%;
@@ -573,8 +569,8 @@ footer {
     #toggle {
         display: none;
     }
-    /*-----------------------------------MENU-SLUT-----------------------------*/
-    /*-----------------------------------HEADER-START-----------------------------*/
+    /*-----------------MENU-START-TABLET-SLUT--------------*/
+    /*---------------------HEADER-TABLET-START----------------*/
     #logo {
         width: 48%;
         margin-left: 10%;
@@ -586,8 +582,8 @@ footer {
         font-size: 60%;
         color: white;
     }
-    /*-----------------------------------HEADER-SLUT-----------------------------*/
-    /*--------------------------------TOP-BILLEDE-START-------------------------*/
+    /*---------------------HEADER-TABLET-SLUT------------------*/
+    /*------------------TOP-BILLEDE-TABLET-START---------------*/
     .skov {
         width: 80%;
         display: block;
@@ -619,8 +615,8 @@ footer {
         width: 100%;
         display: none;
     }
-    /*--------------------------------TOP-BILLEDE-SLUT-------------------------*/
-    /*--------------------------------CSS-GRID-START-------------------------*/
+    /*------------------TOP-BILLEDE-TABLET-SLUT---------------*/
+    /*---------------FORSIDE-TABLET-CSS-GRID-START-----------*/
     .item2 {
         grid-area: tandlaegeskraek;
         display: none;
@@ -659,80 +655,8 @@ footer {
         position: relative;
         grid-template-rows: 80px;
     }
-    /*--------------------------------CSS-GRID-SLUT-------------------------*/
-    /*--------------------------------Ny patient TABLET————————————*/
-    .nypatientflex {
-    margin-left: 13%;
-    margin-right: 13%;
-    display: flex;
- align-content: flex-end;
-    width: 100%;
-        height: 200px; 
-        
-        
-        
-        }
-.nypatienttekst {
- margin: 0.5%;
-    background-color: white;
-    width: 35%;
-    padding: 0.5%;
-    height: 200px;
-    font-size: 76%;
- 
-    
-}
-
-.kopbillede {
-    
-margin: 0.5%;
-    background-color: white;
-    width: 34%; 
-    height: 210px; 
-   
-}
-
-    
-.nypatientflex1{
-    margin-left: 13%;
-    margin-right: 13%;
-    display: flex;
-    align-content: center;
-height: 250px;
-    margin-top: 02%;
-    width: 100%;
-
-}
-
-.tandpastabillede {
-   margin: 0.5%;
-    display: block;
-    width: 36%; 
-   height: 210px;
-
-}
-
-.afbudtekst {
-   align-content: stretch;
-    background-color: white;
-    padding: 0.5%;
-    width:33%;
-    margin: 0.5%;
-    height: 204px;
-    font-size: 76%;
-    
-    }
-    
-    
-    .tandpastabillede1{
-    display: none;
-}
-
-
-
-
-    /*--------------------------------Ny patient TABLET————————————*/
-    /*PRISER-START--------------------------*/
+    /*----------------FORSIDE-TABLET-CSS-GRID-SLUT-------------*/
+    /*------------------PRISER-TABLET-START------------------*/
     table {
         width: 81%;
         margin-top: 2%;
@@ -767,31 +691,8 @@ height: 250px;
         color: white;
     }
 
-    /*---------------------------------PRISER-SLUT--------------------------*/
-    /*--------------------------------FOOTER-START-------------------------*/
-    .fblogo {
-        width: 4%;
-        margin-top: 2%;
-        float: right;
-    }
-    .maps {
-        width: 4%;
-        margin-top: 2%;
-        float: right;
-        margin-right: 10%;
-    }
-    #footeradresse {
-        float: left;
-        margin-left: 10%;
-        font-family: 'Roboto', sans-serif;
-        color: #6b6b6b;
-        font-size: 15px;
-    }
-
-
-    /*--------------------------------FOOTER-SLUT-------------------------*/
-    /*--------------------------------TABLET-SLUT-----------------------------*/
-    /*--------------------------------TABLET-SLUT-----------------------------*/
+    /*------------------PRISER-TABLET-SLUT------------------*/
+    /*------------------OMOS-TABLET-START--------------------*/
     .omosgrid {
         display: grid;
         grid-template-areas: 'mai mammad' 'lotte hanna' 'camilla none';
@@ -835,7 +736,6 @@ height: 250px;
         font-size: 120%;
 
     }
-
 
     .profil {
         margin-left: auto;
@@ -889,9 +789,8 @@ height: 250px;
     .omosgrid h4 {
         text-align: center;
     }
-
-
-    /*TANDSKRÆK START*/
+    /*------------------OMOS-TABLET-SLUT--------------------*/
+    /*--------------TANDLÆGESKRÆK-TABLET-START--------------*/
     .tandgrid {
         display: flex;
         flex-direction: column;
@@ -907,7 +806,6 @@ height: 250px;
         width: 100%;
         padding: 2%;
     }
-
     .tandinfo2 {
         background-color: white;
         display: flex;
@@ -922,15 +820,106 @@ height: 250px;
         display: block;
         margin-top: 2%;
     }
+    /*--------------TANDLÆGESKRÆK-TABLET-SLUT----------------*/
+    /*------------------NY-PATIENT-TABLET-START----------------*/
+    .h1nyp {
+        margin-top: -0.5%;
+    }
 
-    /*TANDSKRÆK SLUT*/
-    /*--------------------------------PC-START-----------------------------*/
-    /*--------------------------------PC-START-----------------------------*/
+    .nypatientflex {
+        margin-left: 13%;
+        margin-right: 13%;
+        display: flex;
+        align-content: flex-end;
+        width: 100%;
+        height: 200px;
+
+
+
+    }
+
+    .nypatienttekst {
+        margin: 0.5%;
+
+        background-color: white;
+        width: 35%;
+        padding: 0.5%;
+        height: 300px;
+        font-size: 83%;
+
+
+    }
+
+    .kopbillede {
+
+        margin: 0.5%;
+        background-color: white;
+        width: 34%;
+        height: 309px;
+
+    }
+
+    .nypatientflex1 {
+        margin-left: 13%;
+        margin-right: 13%;
+        display: flex;
+        align-content: center;
+        height: 250px;
+        margin-top: 14%;
+        width: 100%;
+        line-height: 1.4;
+
+    }
+
+    .tandpastabillede {
+        margin: 0.5%;
+        display: block;
+        width: 36%;
+        height: 210px;
+
+    }
+
+    .afbudtekst {
+        align-content: stretch;
+        background-color: white;
+        padding: 0.5%;
+        width: 33%;
+        margin: 0.5%;
+        height: 234px;
+        font-size: 89%;
+
+    }
+
+    .tandpastabillede1 {
+        display: none;
+    }
+
+    /*------------------NY-PATIENT-TABLET-SLUT----------------*/
+    /*------------------FOOTER-TABLET-START-------------------*/
+    .fblogo {
+        width: 4%;
+        margin-top: 2%;
+        float: right;
+    }
+    .maps {
+        width: 4%;
+        margin-top: 2%;
+        float: right;
+        margin-right: 10%;
+    }
+    #footeradresse {
+        float: left;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        color: #6b6b6b;
+        font-size: 15px;
+    }
+    /*------------------FOOTER-TABLET-SLUT--------------------*/
 }
 
 @media only screen and (min-width: 1024px) {
 
-    /*-----------------------------------MENU-START-----------------------------*/
+    /*-------------------------MENU-PC-START----------------------*/
     .menu {
         display: flex;
         justify-content: center;
@@ -961,8 +950,8 @@ height: 250px;
     #toggle {
         display: none;
     }
-    /*-----------------------------------MENU-SLUT---------------------------*/
-    /*---------------------------------HEADER-START--------------------------*/
+    /*-------------------------MENU-PC-SLUT----------------------*/
+    /*------------------------HEADER-PC-START-------------------*/
     #logo {
         width: 30%;
         margin-left: 13%;
@@ -983,8 +972,8 @@ height: 250px;
         padding: 20px 0;
         font-size: 30px;
     }
-    /*---------------------------------HEADER-SLUT--------------------------*/
-    /*------------------------------TOP-BILLEDE-START------------------------*/
+    /*------------------------HEADER-PC-SLUT--------------------*/
+    /*----------------------TOP-BILLEDE-PC-START-----------------*/
     .skov {
         width: 74%;
         display: block;
@@ -992,7 +981,6 @@ height: 250px;
         margin-right: auto;
         margin-top: 2%;
     }
-
     .aabningstid {
         width: 14%;
         position: absolute;
@@ -1002,7 +990,6 @@ height: 250px;
     .aabningstid:hover {
         margin-left: 42.5%;
     }
-
     .nypatient {
         width: 14%;
         position: absolute;
@@ -1016,84 +1003,8 @@ height: 250px;
         width: 100%;
         display: none;
     }
-    /*------------------------------TOP-BILLEDE-SLUT------------------------*/
-    /*---------------------------------Ny patient PC SKÆRM—————————————*/
-    .nypatientflex {
-    margin-left: 13%;
-    margin-right: 13%;
-    display: flex;
-    align-content: stretch;
-    width: 100%;
-    height: 250px;
-}
-
-
-
-.nypatienttekst {
- margin-top: 1%;
-    background-color: white;
-    width: 30%;
-    padding: 0.5%;
-    font-size: 90%; 
-    height: 247px; 
-    
-    
-}
-
-.kopbillede {
-    
-margin: 1%;
-    background-color: white;
-    width: 36%; 
-    height: 260px; 
-    align-content: flex-end;
-     
-   
-}
-
-    
-.nypatientflex1{
-    margin-left: 13%;
-    margin-right: 13%;
-    display: flex;
-    width: 100%;
-    margin-top: 4%; 
-    
-
-    
-}
-
-.tandpastabillede {
-  
-    display: block;
-    width: 31%; 
-    height: 50%; 
-    height: 200px; 
-
-}
-
-.afbudtekst {
-   margin-left: 12px;
-    background-color: white;
-    padding: 0.5%;
-    width:35.2%;
-    
-    font-size: 90%;
-     height: 188px; 
-    }
-    
-    
-    .tandpastabillede1
-    {
-    display: none;
-}
-
-
-
-
-
-    /*---------------------------------Ny patient PC SKÆRM—————————————*/
-    /*---------------------------------CSS-GRID-START--------------------------*/
+    /*----------------------TOP-BILLEDE-PC-SLUT-----------------*/
+    /*----------------------CSS-GRID-FORSIDE-PC-START------------*/
     .item2 {
         grid-area: tandlaegeskraek;
         display: block;
@@ -1127,52 +1038,43 @@ margin: 1%;
         margin-top: 1%;
         grid-gap: 1%;
     }
-    /*---------------------------------CSS-GRID-SLUT--------------------------*/
-    /*---------------------------------FOOTER-START--------------------------*/
-    .gridfooter {
-        display: grid;
-        grid-template-areas: 'footer';
-        position: relative;
-        grid-template-rows: 80px
-    }
-    footer {
-        grid-area: footer;
-        background-color: white;
+    /*-----------------CSS-GRID-FORSIDE-PC-SLUT---------------*/
+    /*-----------------------PRISER-PC-START------------------*/
+    table {
+        width: 75%;
         margin-top: 2%;
-    }
-    .fblogo {
-        width: 2.4%;
-        float: right;
-        margin-right: 23%;
-        margin-top: -2.9%
-    }
-    .maps {
-        width: 2.7%;
-        float: right;
-        margin-top: -3.3%;
+        margin-left: 13%;
         margin-right: 13%;
     }
-    #footeradresse {
-        float: left;
-        margin-left: 13%;
-        font-family: 'Roboto', sans-serif;
-        color: #6b6b6b;
-        font-size: 15px;
+    table,
+    th,
+    td {
+        border: 1px solid #7aaddb;
+        border-collapse: collapse;
     }
-    #footertlf {
-        margin-left: 45%;
-        font-family: 'Roboto', sans-serif;
-        color: #6b6b6b;
-        display: block;
-        font-size: 15px;
+    th,
+    td {
+        padding: 3%;
+        text-align: left;
     }
-    a {
-        text-decoration: none;
+    th {
+        font-family: 'roboto', sans-serif;
+        font-size: 130%;
     }
-    /*---------------------------------FOOTER-SLUT--------------------------*/
-    /*---------------------------------PC-SLUT--------------------------*/
-    /*---------------------------------PC-SLUT--------------------------*/
-    /*---------------------------------OM OS---------------------------*/
+    table#t01 tr:nth-child(even) {
+        background-color: #f5f5f5;
+        font-family: 'Open-Sans', sans-serif;
+    }
+    table#t01 tr:nth-child(odd) {
+        background-color: #fff;
+        font-family: 'Open-Sans', sans-serif;
+    }
+    table#t01 th {
+        background-color: #7aaddb;
+        color: white;
+    }
+    /*-----------------------PRISER-PC-SLUT------------------*/
+    /*-----------------------OM-OS-PC-START------------------*/
     .aabningsbillede {
         margin-left: 13%;
         margin-right: 13%;
@@ -1248,43 +1150,8 @@ margin: 1%;
     .omosgrid h4 {
         text-align: center;
     }
-    /*---------------------------------OM SLUT---------------------------*/
-    /*PRISER-START--------------------------*/
-    table {
-        width: 75%;
-        margin-top: 2%;
-        margin-left: 13%;
-        margin-right: 13%;
-    }
-    table,
-    th,
-    td {
-        border: 1px solid #7aaddb;
-        border-collapse: collapse;
-    }
-    th,
-    td {
-        padding: 3%;
-        text-align: left;
-    }
-    th {
-        font-family: 'roboto', sans-serif;
-        font-size: 130%;
-    }
-    table#t01 tr:nth-child(even) {
-        background-color: #f5f5f5;
-        font-family: 'Open-Sans', sans-serif;
-    }
-    table#t01 tr:nth-child(odd) {
-        background-color: #fff;
-        font-family: 'Open-Sans', sans-serif;
-    }
-    table#t01 th {
-        background-color: #7aaddb;
-        color: white;
-    }
-
-    /*---------------------------------Tandlægeskræk-start-------------------------*/
+    /*-----------------------OM-OS-PC-SLUT------------------*/
+    /*---------------------TANDLÆGESKRÆK-PC-START------------*/
     .tandgrid {
         display: flex;
         margin-right: 13%;
@@ -1323,4 +1190,100 @@ margin: 1%;
         display: block;
         margin-top: 0.5%;
     }
+    /*-------------------TANDLÆGESKRÆK-PC-SLUT--------------*/
+    /*-------------------NY-PATIENT-PC-START-----------------*/
+    .h1nyp {
+        margin-top: -0.5%;
+    }
+    .nypatientflex {
+        margin-right: 13%;
+        margin-left: 13%;
+        margin-top: 0.5%;
+        display: flex;
+    }
+
+    .nypatienttekst {
+
+        background-color: white;
+        width: 30%;
+
+        font-size: 95%;
+
+
+    }
+
+    .kopbillede {
+
+        background-color: white;
+        width: 34%;
+        height: 313px
+    }
+
+    .nypatientflex1 {
+
+        margin-left: 13%;
+        margin-right: 13%;
+        display: flex;
+    }
+
+    .tandpastabillede {
+
+        width: 31%;
+        height: 215px;
+
+    }
+
+    .afbudtekst {
+
+        background-color: white;
+
+        font-size: 95%;
+    }
+
+    .tandpastabillede1 {
+        display: none;
+    }
+    /*-------------------NY-PATIENT-PC-SLUT-----------------*/
+    /*--------------------FOOTER-PC-START--------------------*/
+    .gridfooter {
+        display: grid;
+        grid-template-areas: 'footer';
+        position: relative;
+        grid-template-rows: 80px
+    }
+    footer {
+        grid-area: footer;
+        background-color: white;
+        margin-top: 2%;
+    }
+    .fblogo {
+        width: 2.4%;
+        float: right;
+        margin-right: 23%;
+        margin-top: -2.9%
+    }
+    .maps {
+        width: 2.7%;
+        float: right;
+        margin-top: -3.3%;
+        margin-right: 13%;
+    }
+    #footeradresse {
+        float: left;
+        margin-left: 13%;
+        font-family: 'Roboto', sans-serif;
+        color: #6b6b6b;
+        font-size: 15px;
+    }
+    #footertlf {
+        margin-left: 45%;
+        font-family: 'Roboto', sans-serif;
+        color: #6b6b6b;
+        display: block;
+        font-size: 15px;
+    }
+    a {
+        text-decoration: none;
+    }
+    /*--------------------FOOTER-PC-SLUT--------------------*/
 }
