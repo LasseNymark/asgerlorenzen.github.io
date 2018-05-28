@@ -426,6 +426,7 @@ span {
     width: 100%;
     padding: 3%;
     box-shadow: 2px 3px #7aaddb;
+    
 }
 
 .tandinfo h2 {
@@ -446,50 +447,69 @@ span {
 
 /*-------------------------NY-PATIENT-MOBIL-START---------------*/
 
-.tandpastabillede {
-
-    display: none;
+    .nypatgrid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 8%;
 }
 
-.tandpastabillede1 {
+.nypatinfo {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    padding: 3%;
+    box-shadow: 2px 3px #7aaddb;
 }
-
-.nypatienttekst {
-    margin: 2%;
+.nypatinfo ul {
+    line-height: 1.4;
+    font-family: 'Open-Sans', sans-serif;
+    margin-left: -5%;
+    margin-top: 0;
+     margin-bottom: 0;
+}
+.nypatinfo2 {
     background-color: white;
-    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+    box-shadow: 2px 3px #7aaddb;
     line-height: 1.4;
 }
-.nypatienttekst ul {
-     font-family: 'Open-Sans', sans-serif;
-    color: #6b6b6b;
-    text-align: left;
-    line-height: 1.4;
+.nypatinfo2 ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -5%;
+    font-style: italic;
 }
 
-.kopbillede {
-
-    width: 96%;
-    margin: 2%;
+.nypatinfo h2 {
+    line-height: 0%;
+    font-size: 130%;
 }
 
-.tandpastabillede1 {
-    margin: 2%;
-    width: 96%;
+.nypatinfo2 h2 {
+    line-height: 0%;
+    font-size: 130%;
 }
 
-.afbudtekst {
+    .koppen4 {
+display: none;
+    }
 
-    background-color: white;
-    margin: 2%;
-    padding: 1%;
+.tpl { width: 100%;
 }
+
 
 .omostlf {
     text-decoration-line: underline;
     color: #7aaddb;
 }
+
 
 /*------------------------NY-PATIENT-MOBIL-SLUT---------------*/
 
@@ -824,77 +844,50 @@ footer {
     }
     /*--------------TANDLÆGESKRÆK-TABLET-SLUT----------------*/
     /*------------------NY-PATIENT-TABLET-START----------------*/
-    .h1nyp {
-        margin-top: -0.5%;
-    }
-
-    .nypatientflex {
-        margin-left: 13%;
-        margin-right: 13%;
+    .nypatgrid {
         display: flex;
-        align-content: flex-end;
-        width: 100%;
-        height: 200px;
-
-
-
-    }
-
-    .nypatienttekst {
-        margin: 0.5%;
-
-        background-color: white;
-        width: 35%;
-        padding: 0.5%;
-        height: 300px;
-        font-size: 83%;
-
-
-    }
-
-    .kopbillede {
-
-        margin: 0.5%;
-        background-color: white;
-        width: 34%;
-        height: 309px;
-
-    }
-
-    .nypatientflex1 {
-        margin-left: 13%;
         margin-right: 13%;
-        display: flex;
-        align-content: center;
-        height: 250px;
-        margin-top: 14%;
-        width: 100%;
-        line-height: 1.4;
-
+        margin-left: 13%;
+        flex-direction: row;
+        margin-top: 1%;
     }
-
-    .tandpastabillede {
-        margin: 0.5%;
+    .nypatinfo {
+        margin: 1% 1% 1% 0%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+    }
+    .nypatinfo h2 {
+        line-height: 0%;
+    }
+    .nypatinfo2 h2 {
+        line-height: 0%;
+    }
+    .nypatinfo2 {
+        margin: 1% 0% 1% 1%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 100%;
+        padding: 2%; 
+    }
+.tpl {  
+        width: 100%;
+      margin-top: 5%;
         display: block;
-        width: 36%;
-        height: 210px;
-
+    }
+    .koppen4 {
+        display: block;
+width: 100% 
     }
 
-    .afbudtekst {
-        align-content: stretch;
-        background-color: white;
-        padding: 0.5%;
-        width: 33%;
-        margin: 0.5%;
-        height: 234px;
-        font-size: 89%;
-
-    }
-
-    .tandpastabillede1 {
-        display: none;
-    }
+.omostlf {
+    text-decoration-line: underline;
+    color: #7aaddb;
+}
 
     /*------------------NY-PATIENT-TABLET-SLUT----------------*/
     /*------------------FOOTER-TABLET-START-------------------*/
@@ -1194,57 +1187,48 @@ footer {
     }
     /*-------------------TANDLÆGESKRÆK-PC-SLUT--------------*/
     /*-------------------NY-PATIENT-PC-START-----------------*/
-    .h1nyp {
-        margin-top: -0.5%;
-    }
-    .nypatientflex {
+    .nypatgrid {
+        display: flex;
         margin-right: 13%;
         margin-left: 13%;
-        margin-top: 0.5%;
+        flex-direction: row;
+        margin-top: 1%;
+    }
+    .nypatinfo {
+        margin: 1% 1% 1% 0%;
+        background-color: white;
         display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
     }
-
-    .nypatienttekst {
-
+    .nypatinfo h2 {
+        line-height: 0%;
+    }
+    .nypatinfo2 h2 {
+        line-height: 0%;
+    }
+    .nypatinfo2 {
+        margin: 1% 0% 1% 1%;
         background-color: white;
-        width: 30%;
-
-        font-size: 95%;
-
-
-    }
-
-    .kopbillede {
-
-        background-color: white;
-        width: 34%;
-        height: 313px
-    }
-
-    .nypatientflex1 {
-
-        margin-left: 13%;
-        margin-right: 13%;
         display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 100%;
+        padding: 2%;
     }
 
-    .tandpastabillede {
-
-        width: 31%;
-        height: 215px;
-
+    .tpl { 
+        width: 100%;
+        display: block;
     }
+    
+    .koppen4 {
+        width: 100%;
+      margin-bottom: 5%;
+        display: block;
+        }
 
-    .afbudtekst {
-
-        background-color: white;
-
-        font-size: 95%;
-    }
-
-    .tandpastabillede1 {
-        display: none;
-    }
     /*-------------------NY-PATIENT-PC-SLUT-----------------*/
     /*--------------------FOOTER-PC-START--------------------*/
     .gridfooter {
