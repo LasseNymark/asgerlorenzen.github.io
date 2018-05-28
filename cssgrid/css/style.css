@@ -501,8 +501,10 @@ span {
     font-size: 130%;
 }
 
-.nypatinfo2 li {
-    margin-left: 22%;
+ .nypatinfo2 li {
+     text-align: center;
+        width: 100%;
+     margin-left: -7%;
 }
 
 .koppen4 {
@@ -884,6 +886,10 @@ footer {
         width: 100%;
         padding: 2%;
     }
+    .nypatinfo2 li {
+     text-align: center;
+        width: 100%;
+}
     .tpl {
         width: 100%;
         margin-top: 5%;
@@ -1226,6 +1232,10 @@ footer {
         min-height: 100px;
         width: 100%;
         padding: 2%;
+    }
+    .nypatinfo2 li {
+        text-align: center;
+        width: 100%;
     }
 
     .tpl {
