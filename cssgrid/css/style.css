@@ -23,6 +23,7 @@ h5 {
 }
 
 /*--------------------MENU-START-MOBIL---------------------*/
+
 /*-Inspiration fra https://www.youtube.com/watch?v=xMTs8tAapnQ-*/
 
 label {
@@ -426,7 +427,7 @@ span {
     width: 100%;
     padding: 3%;
     box-shadow: 2px 3px #7aaddb;
-    
+
 }
 
 .tandinfo h2 {
@@ -447,7 +448,7 @@ span {
 
 /*-------------------------NY-PATIENT-MOBIL-START---------------*/
 
-    .nypatgrid {
+.nypatgrid {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
@@ -464,13 +465,15 @@ span {
     padding: 3%;
     box-shadow: 2px 3px #7aaddb;
 }
+
 .nypatinfo ul {
     line-height: 1.4;
     font-family: 'Open-Sans', sans-serif;
     margin-left: -5%;
     margin-top: 0;
-     margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .nypatinfo2 {
     background-color: white;
     display: flex;
@@ -480,6 +483,7 @@ span {
     box-shadow: 2px 3px #7aaddb;
     line-height: 1.4;
 }
+
 .nypatinfo2 ul {
     list-style-type: none;
     margin: 0;
@@ -497,11 +501,16 @@ span {
     font-size: 130%;
 }
 
-    .koppen4 {
-display: none;
-    }
+.nypatinfo2 li {
+    margin-left: 22%;
+}
 
-.tpl { width: 100%;
+.koppen4 {
+    display: none;
+}
+
+.tpl {
+    width: 100%;
 }
 
 .omostlf {
@@ -871,22 +880,22 @@ footer {
         flex-direction: column;
         min-height: 100px;
         width: 100%;
-        padding: 2%; 
+        padding: 2%;
     }
-.tpl {  
+    .tpl {
         width: 100%;
-      margin-top: 5%;
+        margin-top: 5%;
         display: block;
     }
     .koppen4 {
         display: block;
-width: 100% 
+        width: 100%
     }
 
-.omostlf {
-    text-decoration-line: underline;
-    color: #7aaddb;
-}
+    .omostlf {
+        text-decoration-line: underline;
+        color: #7aaddb;
+    }
 
     /*------------------NY-PATIENT-TABLET-SLUT----------------*/
     /*------------------FOOTER-TABLET-START-------------------*/
@@ -1217,16 +1226,16 @@ width: 100%
         padding: 2%;
     }
 
-    .tpl { 
+    .tpl {
         width: 100%;
         display: block;
     }
-    
+
     .koppen4 {
         width: 100%;
-      margin-bottom: 5%;
+        margin-bottom: 5%;
         display: block;
-        }
+    }
 
     /*-------------------NY-PATIENT-PC-SLUT-----------------*/
     /*--------------------FOOTER-PC-START--------------------*/
